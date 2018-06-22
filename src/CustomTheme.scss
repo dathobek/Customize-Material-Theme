@@ -19,10 +19,10 @@ $custom-theme: mat-dark-theme($custom-primary,$custom-accent,$custom-warm);
 // ALTERNATIVE THEME
 
 $alt-primary: mat-palette($mat-yellow);
-$alt-accent: mat-palette($mat-gray,200);
+$alt-accent: mat-palette($mat-blue);
 
 $alt-theme: mat-dark-theme($alt-primary,$alt-accent);
 
 .alternative{
-    @include angular-material-theme($alt-theme);
+    @include mat-button-theme($alt-theme);
 }
